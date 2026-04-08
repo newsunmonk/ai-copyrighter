@@ -1,8 +1,11 @@
 {
-  "name": "ai-copyrighter",
+  "name": "ai-copywriter",
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
     "dev:client": "vite --config client/vite.config.js",
