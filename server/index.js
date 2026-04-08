@@ -13,7 +13,7 @@ import {
 
 const app = express();
 const port = Number(process.env.PORT || 3001);
-const host = process.env.HOST || "127.0.0.1";
+const host = process.env.HOST || "0.0.0.0";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const distPath = path.resolve(__dirname, "../dist");
