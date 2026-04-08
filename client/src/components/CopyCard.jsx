@@ -30,7 +30,7 @@ export default function CopyCard({ item, onCopy }) {
       </h3>
       <div className="mt-5 flex-1 space-y-3 text-[15px] leading-7 text-slate-300">
         {bodyLines.map((line, index) => (
-          <p key={`${item.framework}-${item.version}-${index}`} className="text-balance">
+          <p key={`${item.framework}-${item.version}-${index}`}>
             {line}
           </p>
         ))}

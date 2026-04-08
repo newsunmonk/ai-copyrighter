@@ -43,6 +43,19 @@ textarea {
   color: white;
 }
 
-.text-balance {
-  text-wrap: balance;
+h1,
+h2,
+h3 {
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+p,
+label,
+button,
+input,
+select,
+textarea {
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }

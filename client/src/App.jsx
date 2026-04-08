@@ -122,13 +122,13 @@ CTA: ${item.cta}`;
               <div className="inline-flex rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-[11px] uppercase tracking-[0.34em] text-purple-100/90 backdrop-blur-sm">
                 Performance Copy Studio
               </div>
-              <h1 className="mt-6 max-w-5xl text-4xl font-semibold leading-[0.98] tracking-[-0.05em] text-white md:text-6xl xl:text-[4.8rem]">
-                마케팅 감도와
-                <span className="block bg-gradient-to-r from-white via-fuchsia-100 to-cyan-200 bg-clip-text text-transparent">
-                  실전 전환 구조를 동시에 설계하는 카피 워크스테이션
+              <h1 className="mt-6 max-w-[900px] text-[2.9rem] font-semibold leading-[1.02] tracking-[-0.06em] text-white md:text-[4.3rem] xl:text-[5.2rem]">
+                <span className="block">마케팅 전문가가 만든</span>
+                <span className="mt-2 block bg-gradient-to-r from-white via-fuchsia-100 to-cyan-200 bg-clip-text text-transparent">
+                  카피라이팅 워크스테이션
                 </span>
               </h1>
-              <p className="mt-6 max-w-3xl text-[15px] leading-8 text-slate-300 md:text-base">
+              <p className="mt-6 max-w-[720px] text-[15px] leading-8 text-slate-300 md:text-base">
                 브랜드 포지션, 고객 인사이트, 톤앤매너를 입력하면 Claude가 프레임워크별로 6개의 다른 앵글을 구성해
                 바로 테스트 가능한 헤드라인, 본문, CTA 세트를 정리합니다.
               </p>
